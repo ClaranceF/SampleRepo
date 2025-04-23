@@ -1,0 +1,26 @@
+List of commonly used git commands.
+
+git --version
+git init
+git status
+git add .
+git commit -m "asdf"
+git . \file name
+git log . \filename
+git show . \filename
+
+git config --global user.name "asdf"
+git config --global user email "asdf.com"
+
+Conventional commit messages:
+git commit -m "fix: message ---write a message if an issue is fixed"
+git commit -m "feat: message --- Write a message if you add any new feature"
+git commit -m "Refactor: message--- if you improvise anything"
+git commit -m "Docs: message --- if you update a document"
+git commit -m "chore: message --- if you're not doing any important work"
+git commit -m "!fix message --- breaking change message"
+git reset will revert back all your changes you've made.
+ 
+ git push origin main
+ git pull
+ git diff
