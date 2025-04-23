@@ -24,3 +24,7 @@ git reset will revert back all your changes you've made.
  git push origin main
  git pull
  git diff
+
+
+git log --oneline --all
+git pull --prune  --- Deletes the feature branch
